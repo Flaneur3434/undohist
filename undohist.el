@@ -49,7 +49,7 @@
     (if (boundp 'user-emacs-directory)
         user-emacs-directory
       "~/.emacs.d")
-    "/undohist"))
+    "/undohist-cache"))
   "A directory being stored undo history files."
   :type 'undohist)
 
